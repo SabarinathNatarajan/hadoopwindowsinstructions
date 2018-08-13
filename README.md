@@ -32,3 +32,8 @@ receiving messages
 or not
 yes
 receiving terminal is receiving messages
+
+TO PRODUCE VIA A TEXT FILE : 
+D:\hadoop\kafka_2.10-0.10.1.1\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test < D:\Sabari\test.txt
+
+As a result, automatically the consumer will read the inputs accordingly through the same topic named 'test'
